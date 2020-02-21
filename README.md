@@ -31,6 +31,15 @@ activate djangoai
 * pip install numpy
 * pip install scikit-learn
 
+# Note
+
+ファイル容量が大きいため
+
+* imagefiles_224.npy
+* vgg16_transfer.h5
+
+は除いているが実行するには必須のファイルなので実行する際は追加しておく。
+
 # Usage
 
 ```bash
