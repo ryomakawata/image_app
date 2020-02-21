@@ -24,19 +24,23 @@
 conda create -n djangoai pip python=3.7 Anaconda
 activate djangoai
 ```
+pip install django
+pip install tensorflow ＊Pythonのバージョンは3.5~3.7にする。
+pip install flickrapi
+pip install PIL
+pip install numpy
+pip install scikit-learn
 
 # Usage
 
 DEMOの実行方法など、"hoge"の基本的な使い方を説明する
 
 ```bash
-git clone https://github.com/ryomakawata/firstweb
+git clone https://github.com/ryomakawata/image-app
 cd examples
 python manage.py runserver
 ```
 # Author
-
-作成情報を列挙する
 
 * ryoma kawata
 
