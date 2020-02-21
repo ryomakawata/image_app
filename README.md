@@ -24,6 +24,8 @@
 conda create -n djangoai pip python=3.7 Anaconda
 activate djangoai
 ```
+
+
 * pip install django
 * pip install tensorflow ＊Pythonのバージョンは3.5~3.7にする。
 * pip install flickrapi
