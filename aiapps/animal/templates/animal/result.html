@@ -1,0 +1,29 @@
+{% extends 'animal/base.html' %}
+{% block title %}動物推定結果{% endblock %}
+
+{% block content %}
+<div>
+    <h4 class="mt-4 mb-5 boder-bottom">動物推定結果</h4>
+    <table class='table'>
+        <tr>
+            <td>ファイル名</td>
+            <td>{{ photo_name }}</td>
+        </tr>
+        <tr>
+            <td>画像ファイル</td>
+            <td><img src="{{ photo_data }}" alt="入力画像"></td>
+        </tr>
+        <tr>
+            <td>推定ラベル</td>
+            <td>{{ predicted }}</td>
+        </tr>
+        <tr>
+            <td>推定確立</td>
+            <td>{{ percentage }}%</td>
+        </tr>
+    </table>
+
+    <a href="{% url 'animal:index' %}" class="btn btn-primary">画像選択メニューに戻る</a>
+
+</div>
+{% endblock %}
