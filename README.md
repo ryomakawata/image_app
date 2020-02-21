@@ -41,7 +41,7 @@ activate djangoai
 * imagefiles_224.npy
 * vgg16_transfer.h5
 
-は除いているがアプリを動かす際は必須のファイル。
+は除いていますがアプリを動かす際は必須のファイルです。
 
 # Usage
 
